@@ -1,0 +1,23 @@
+{
+  "name": "Discord Medya İndiricisi",
+  "version": "1.0.0",
+  "description": "Discord sunucularından medya dosyalarını indirmek için geliştirilmiştir.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "poyrazoraman",
+    "url": "https://github.com/poyrazoraman"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.5.1",
+    "electron": "^27.1.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.6.4"
+  }
+}
